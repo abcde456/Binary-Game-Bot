@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Binary Game Bot",
+    "version": "1.0",
+    "description": "Automates the binary conversion game logic.",
+    "permissions": ["storage"],
+    "host_permissions": ["https://learningcontent.cisco.com/games/binary/*"],
+    "content_scripts": [
+        {
+            "matches": ["https://learningcontent.cisco.com/games/binary/*"],
+            "js": ["bot.js"],
+            "run_at": "document_idle"
+        }
+    ],
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "binarybot@example.com"
+        }
+    }
+}

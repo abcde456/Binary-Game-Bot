@@ -42,7 +42,7 @@ Below is a list of currently supported browsers and their instructions on how to
 
 To install this extension for firefox, first 
 
-* Download a zip file of this repository
+* Download the latest Firefox [release](https://github.com/abcde456/Binary-Game-Bot/releases/tag/Firefox)
 
 * Extract that zip file somewhere
 

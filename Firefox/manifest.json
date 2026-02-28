@@ -1,15 +1,22 @@
 {
     "manifest_version": 3,
     "name": "Binary Game Bot",
-    "version": "1.0",
-    "description": "Automates the binary conversion game logic.",
+    "version": "1.1",
+    "description": "Automates binary conversion logic for Firefox.",
     "permissions": ["storage"],
-    "host_permissions": ["https://learningcontent.cisco.com/games/binary/*"],
+    "host_permissions": ["https://learningcontent.cisco.com/*"],
+    "icons": {
+        "128": "icon.png"
+    },
+    "action": {
+        "default_popup": "popup.html"
+    },
     "content_scripts": [
         {
             "matches": ["https://learningcontent.cisco.com/games/binary/*"],
             "js": ["bot.js"],
-            "run_at": "document_idle"
+            "run_at": "document_idle",
+            "all_frames": true
         }
     ],
     "browser_specific_settings": {

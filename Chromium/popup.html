@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+    <head>
+        <style>
+            body {
+                width: 150px;
+                font-family: sans-serif;
+                text-align: center;
+                padding: 10px;
+            }
+            .status {
+                font-weight: bold;
+                margin-bottom: 10px;
+            }
+            button {
+                cursor: pointer;
+                padding: 8px;
+                width: 100%;
+                border-radius: 5px;
+                border: none;
+                color: white;
+            }
+            .on {
+                background: #dc3545;
+            }
+            .off {
+                background: #28a745;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="status">Bot: <span id="state">OFF</span></div>
+        <button id="toggleBtn" class="off">Turn ON</button>
+        <script src="popup.js"></script>
+    </body>
+</html>

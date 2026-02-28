@@ -42,7 +42,7 @@ Below is a list of currently supported browsers and their instructions on how to
 
 To install this extension for firefox, first 
 
-* Download the latest Firefox [release](https://github.com/abcde456/Binary-Game-Bot/releases/tag/Firefox)
+* Download the latest Firefox [release](https://github.com/abcde456/Binary-Game-Bot/releases/tag/Release)
 
 * Extract that zip file somewhere
 
@@ -53,6 +53,50 @@ To install this extension for firefox, first
 * Press on "Load Temporary Add-on..."
 
 * Select the JSON file named manifest.json in your new extracted folder
+
+* Go to binary game
+
+* Start a game
+
+Then congratulations! You will have successfully downloaded the extension.
+
+### Chrome
+
+To install this extension for chrome, first
+
+* Download the latest Chrome [release](https://github.com/abcde456/Binary-Game-Bot/releases/tag/Release)
+
+* Extract that zip file somewhere
+
+* Type in your url "chrome://extensions/"
+
+* Turn developer mode on in the top right corner
+
+* Press load unpacked in the top left corner
+
+* Select the directory with manifest.json (you will not actually see manifest.json, but just go to its folder)
+
+* Go to binary game
+
+* Start a game
+
+Then congratulations! You will have successfully downloaded the extension.
+
+### Brave
+
+To install this extension for chrome, first
+
+* Download the latest Brave [release](https://github.com/abcde456/Binary-Game-Bot/releases/tag/Release)
+
+* Extract that zip file somewhere
+
+* Type in your url "brave://extensions/"
+
+* Turn developer mode on in the top right corner
+
+* Press load unpacked in the top left corner
+
+* Select the directory with manifest.json (you will not actually see manifest.json, but just go to its folder)
 
 * Go to binary game
 
